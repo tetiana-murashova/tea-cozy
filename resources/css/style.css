@@ -1,0 +1,139 @@
+body {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    font-size: 22px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* bars */
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    opacity: 0.9;
+    flex-wrap: wrap;
+}
+
+nav li {
+    display: flex;
+    text-decoration: underline;
+    color: antiquewhite;
+    padding-right: 30px;
+    list-style: none;
+}
+
+a {
+    color: seashell;
+}
+
+.logo img {
+    height: 50px;
+    justify-self: center;
+}
+
+
+/* picture in the middle */
+
+main {
+    box-sizing: border-box;
+    margin-top: 70px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    background-color: black;
+    opacity: 0.9;
+    height: 100px;
+    margin: auto;
+    width: 100%;
+}
+
+h4,
+h2 {
+    margin: 0px;
+    padding: 10px;
+}
+
+
+/*Tea of Month */
+
+.products {
+    background-color: black;
+    width: 1000px;
+    margin: auto;
+}
+
+.images {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.images img {
+    margin: 0px 15px;
+    width: 300px;
+    height: 200px;
+}
+
+
+/* Locations */
+
+#locations {
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    margin-top: 60px;
+    padding-top: 150px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 15px 40px;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.box h4 {
+    padding: 10px 0px;
+}
+
+
+/* footer*/
+
+footer {
+    height: 200px;
+}
+
+aside h5 {
+    text-align: left;
+    margin-left: 20px;
+}
